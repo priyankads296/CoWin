@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600;700&display=swap');
+ 
+
+/*styling for whole page*/
+*{                                               
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+/*styling for body*/
+body{                                       
+    margin: 15px 30px;
+    font-size: 17px;
+    padding: 8px;
+    background-color: rgb(204, 192, 209);
+    
+}
+.navigation{
+    display: flex;
+    padding: 1px 6px;
+    font-size: 43px;
+    color: rgb(55, 55, 255);
+}
+p{
+    font-size: 12px;
+    padding: 0px 36px;
+    margin-top: -15px;
+}
+.nav-right{
+    margin-left: auto;
+    padding: 9px 2px;
+}
+.img{
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 4px;
+    height: 55vh;
+}
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.btn:hover{ 
+    background: rgb(158, 158, 236);
+}
+.section-two {
+    margin-top: 33px;
+    align-items: center;
+} 
+.text{
+    text-align: center;
+    padding: 18px 2px;
+    margin-bottom: 40px;
+    font-size: 126%;
+}
+.table{
+    margin-top: 43px;
+}
+label{
+    font-size: 20px;
+}
+
+#inputState{
+    border-radius: 8px;
+    font-size: 14px;
+    padding-bottom: 7px;
+    background-color: rgb(235, 234, 219);
+    color: rgb(26, 27, 27);
+    cursor: pointer;
+}
+#inputDistrict{
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: rgb(235, 234, 219);
+    color: rgb(26, 27, 27);
+    cursor: pointer;
+    
+}
+#srchbutton{
+   margin: 33px;
+   border-radius: 8px;
+}
+#resetbutton{
+    margin: 33px;
+   border-radius: 8px;
+}
